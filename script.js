@@ -1,4 +1,4 @@
-<script>
+<script type="text/javascript">
     let popup= document.getElementById("popup")
     function openpopup(){popup.classList.add("open-popup")}
 </script>
