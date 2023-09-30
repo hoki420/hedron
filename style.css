@@ -1,0 +1,40 @@
+body{background-color: antiquewhite;}
+#top-part{background-image: url(website_bg.jpg); width:100%;height: 600px; background-repeat: no-repeat;background-size: cover;}
+.psb-text{color: rgb(60, 35, 35); font-family:'Times New Roman', Times, serif; font-weight: 1000; font-size: 13px;margin-bottom: 25px;}
+.ptb-text{color: rgb(149, 97, 97); font-family:'Times New Roman', Times, serif; font-weight: 1000; font-size: 30px;}
+.psb-txt-div{margin-bottom: 2px;justify-content:start}
+#parent-top-bar{display: flex;flex-direction: row;justify-content: space-between; background-color: rgb(20, 13, 58);height: 55px;}
+#parent-side-bar{width:300px ; border-style: groove;border-width: 4px; margin-top: 20px;margin-left: 5px;}
+.psb{margin-left: 8px; width:fit-content;}
+#ptb3{flex-direction: row;}
+#ptb1{display: flex;align-items: center;justify-content: center;}
+#s-box{height: 30px; width: 400px;align-items: center;}
+#s-button{height:30px; width: 55px;margin-top: 20px;}
+#psb1:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#psb2:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#psb3:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#ptb1:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#ptb2:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#ptb3:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#ptb4:hover{background-color: rgba(165, 42, 42, 0.315); font-weight: 700;border-top-right-radius: 15%;border-top-left-radius: 15%;}
+#slider-wrapper{height: 400px; width: 700px; margin-left:100px ; margin-top:30px ;box-shadow: 5px 5px 8px 8px  rgb(120, 131, 165);
+            animation: slider 10s infinite linear;}
+#top-part-2{display: flex; flex-direction: row;}
+#tp-txt1:hover{ color: rgb(200, 199, 199);}
+#tp-txt2:hover{ color: rgb(200, 199, 199);}
+#tp-txt3:hover{ color: rgb(200, 199, 199);}
+#tp-txt4:hover{ color: rgb(200, 199, 199);}
+#tp-txt5:hover{ color: rgb(200, 199, 199);}
+#tp-txt6:hover{ color: rgb(200, 199, 199);}
+#s-button:hover{background-color: rgb(81, 95, 106);}
+.card{ background-color: rgb(200, 142, 66); height: 300px;}
+#slider-wrapper{ max-width:48rem;}
+.slider{display: flex ;overflow-x:auto;scroll-snap-type: x mandatory;scroll-behavior: smooth; height: 100%;}
+.slides{height: 100%;width: 100%;}
+.slider img{flex: 1 0 100%;scroll-snap-align: start;}
+.slider-nav{display: flex;column-gap:1rem;position: absolute;bottom: 1.25rem;left: 50%;transform: translate(-50%);z-index: 1;}
+.slider a{width: 20px;height: 80px;border-radius: 10%; background-color: rgb(0, 0, 0);}
+#logo-pic{height: 40px;width: 150px;}
+.tp-btn{height: 20px;opacity: 50%;}
+.popup{visibility: hidden;}
+.open-popup{height:fit-content; width: 60%;margin-left: 4px;background-color: antiquewhite;opacity: 75%;visibility: visible;}
